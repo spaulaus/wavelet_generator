@@ -24,7 +24,7 @@ class MotherWaveletGenerator {
    double GetValue(const double &t, const double &scale, const double &tau);
 
    /*! Sets the type of mother wavelet that you want to use. */
-   void SetWaveletType (const std::string &sigType) {type_ = sigType;}
+   void SetWaveletType(const std::string &sigType) {type_ = sigType;}
    
 private:
    std::string type_;
